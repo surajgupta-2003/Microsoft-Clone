@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navbar {
+    background-color: white;
+    height: 3.4rem;
+    width: 100vw;
+    display: flex;
+}
+
+.exex img{
+    margin-top: 5px;
+}
+
+.left {
+    width: 8rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.left img {
+    width: 6rem;
+    height: 1.7rem;
+    /* border: 0.02rem solid rgb(184, 177, 177); */
+    padding: 0.3rem;
+}
+
+.left a:hover {
+    border-bottom: 0.2rem solid rgb(255, 145, 42);
+    border-right: 0.2rem solid rgb(30, 209, 30) ;
+    border-left: 0.2rem solid blue ;
+    border-top: 0.2rem solid red ;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30.3rem;
+    height: 3.1rem;
+    align-items: center;
+}
+
+.middle a,
+.right a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.right a {
+    font-size: 1.2rem;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    height: 3.4rem;
+    justify-content: space-evenly;
+    width: 15.7rem;
+}
+
+.middle a:hover,
+.right a:hover,
+.page1 a:hover {
+    border-bottom: 0.1rem solid black;
+    font-size: 1.1rem;
+}
+
+.right select {
+    border: none;
+    font-size: 1rem;
+    border-bottom: 0.1rem solid rgb(95, 92, 92);
+}
+
+.page1 {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.unique{
+    cursor: pointer;
+}
+
+.guitar2{
+    width: 100vw;
+    height: 90vh;
+}
+
+.guitar{
+    background-image: url(microsoftimg/page1.webp);
+    position: absolute;
+}
+
+.mic {
+    margin-top: 12rem;
+    margin-left: 7rem;
+}
+
+.box1 {
+    margin-top: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.box2 {
+    margin-top: 1.6rem;
+  
+}
+
+.box2 input {
+    background-color: blue;
+    padding: 0.6rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: 0.15rem solid white;
+    cursor: pointer;
+}
+
+.box2 a {
+    margin-left: 10px;
+    cursor: pointer;
+    border-bottom: 0.1rem solid black;
+}
+
+.c4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 100vw;
+}
+
+.wala4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+}
+
+.wala4inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wala4inside>div {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.wala4inside>div>a {
+    color: rgb(70, 184, 184);
+}
+
+.wala4inside>div>a:hover {
+    font-size: 1.3rem;
+}
+
+.class44 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.class44inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85vw;
+    height: 70vh;
+}
+
+.inin44 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inin44 h2 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.class44>div>div {
+    margin: 0.6rem;
+}
+
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page3in>div {
+    color: white;
+    margin-left: 6.25rem;
+}
+
+.page3in {
+    background-image: url(microsoftimg/page3.jpg);
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.page3in .txt {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.page3in input {
+    background-color: blue;
+    padding: 0.625rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.page4 {
+    height: 90vh;
+    width: 100vw;
+}
+
+.page4in {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 90vh;
+    justify-content: center;
+}
+
+.page4inin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.ex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85vw;
+    height: 70vh;
+}
+
+.exex {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.exex h2 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.logo {
+    display: flex;
+    margin-left: 6.25rem;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+.insidelogo {
+    margin-top: 0.3125rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn>a {
+    background-color: rgb(221, 214, 214);
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: .125rem solid yellow;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin-right: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0.3125rem;
+}
+
+.footer {
+    height: 55vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+}
+
+.foo-up {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 236, 236);
+}
+
+.foo-up>div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin-top: 15px;
+}
+
+.foo-down {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 188, 188);
+}
+
+.new {
+    text-decoration: none;
+    color: rgb(52, 207, 207);
+}
+
+.new:hover {
+    border-bottom: 0.125rem solid rgb(52, 207, 207);
+    font-size: 1.2rem;
+}
+
+
+.foo-up a,
+.foo-down a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: rgb(66, 62, 62);
+
+}
+
+.foo-up a:hover,
+.foo-down a:hover {
+    text-decoration: underline;
+    font-size: 1rem;
+    color: black
+}
+
+.foo-down div {
+    padding: 0.3125;
+    margin: 0.9375rem;
+}
+
+.dropdown-conent{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    text-align: left;
+    overflow: visible;
+    padding-left: 5px;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+.dropdown:hover .dropdown-conent{
+    display: block;
+    align-self: center;
+    overflow: visible;
+}
+
+.dropdown .dropdown-conent p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
